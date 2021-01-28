@@ -1,0 +1,78 @@
+html {
+  background: radial-gradient(#46e797,#131313);
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  margin: 0;  
+  padding: 0; 
+}
+
+a {
+  color: #92badd;
+  display:inline-block;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display:inline-block;
+  margin: 40px 8px 10px 8px; 
+  color: #cccccc;
+}
+h3 { 
+  text-align: center;
+}
+
+.Login{
+      width: 382px;  
+      overflow: hidden;  
+      margin: auto;  
+      margin: 20 0 0 450px;  
+      padding: 80px;  
+      background: radial-gradient(#5ce4b0,#46e797); 
+      border-radius: 15px ;
+}
+
+#correo{
+    width: 350px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+
+#pass{
+    width: 350px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 10px;
+}
+
+#btn-sucess{
+    background-color: red;
+    color: white;
+    padding: 1em 7.9em;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 25px;
+    font-size: 14px;
+}
+
+img{
+  grid-row: 2/3;
+  grid-column: 4/5;
+  height: 100px;
+  object-fit: cover;
+  align-self: center;
+  justify-self: center;
+  border-radius: 50%;
+  margin-left: 140px;
+}
