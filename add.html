@@ -4,32 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Añadir un contacto</title>
+    <link rel="stylesheet" href="css/add.css">
 </head>
 <body>
     <div class="First">
         <h1> Añade un contacto nuevo</h1>
-        <div class="Lista">
             <li> Nombre completo </li>
-            <input type="text" name="nombre">
+            <input type="text" name="nombre" id="name">
             <li> Direccion </li>
-            <input type="text" name="dir">
+            <input type="text" name="dir" id="dir">
             <li> Teléfono </li>
-            <input type="text" name="tel">
+            <input type="text" name="tel" id="tel">
             <li> Correo electrónico </li>
-            <input type="email" name="correo">
+            <input type="email" name="correo" id="email">
             <li> Genéro  </li>
-            <input list="genero"> 
+            <input list="genero" id="genr"> 
             <datalist id="genero">
                 <option value="Hombre"> </option>
                 <option value="Mujer"> </option>
             </datalist>   
-            <a href="contactos.html" class="btn-success">Enviar</a>
-        </div>
-    </div>
-    <div class="regresar">
-        <a href="contactos.html ">
-            <img src="IMG/back.png" alt="">
-        </a>
+            <a href="contactos.html" id="btn-success">Enviar</a>
+            <a href="contactos.html ">
+                <img src="IMG/back.png" alt="">
+            </a>
     </div>
 </body>
 </html>

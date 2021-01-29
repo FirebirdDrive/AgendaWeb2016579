@@ -1,0 +1,84 @@
+html {
+    background: radial-gradient(#46e797,#131313);
+  
+}
+  
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin-bottom: 0;  
+    padding: 0; 
+}
+
+li{
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 10px;  
+}
+
+img{
+    height: 50px;
+    object-fit: cover;
+    align-self: center;
+    justify-self: center;
+    margin-top: 15px;
+    float: right;
+}
+
+
+
+.aboutA{
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: radial-gradient(#5ce4b0,#46e797); 
+    border-radius: 15px ;
+    margin-top: 50px; 
+}
+
+#name{
+    width: 350px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+    margin-top: 10px;  
+}
+
+#dir{
+    width: 350px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+    margin-top: 10px;    
+}
+
+#tel{
+    width: 350px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+    margin-top: 10px;    
+}
+
+#email{
+    width: 350px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+    margin-top: 10px;    
+}
+
+#genr{
+    width: 350px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px; 
+    margin-top: 10px;   
+}
